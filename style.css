@@ -23,6 +23,74 @@ section > .my-logo > h1 {
   padding-top: 64px;
   font-size: 36px;
 }
+section > .my-logo > div {
+  align-items: center;
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+section > .my-logo > div > a {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+section > .my-logo > div > .home:hover {
+  background-color: #629090;
+}
+section > .my-logo > div > .myWork:hover {
+  background-color: teal;
+}
+section > .my-logo > div > .resume:hover {
+  background-color: darkgray;
+}
+section > .my-logo div > .contact:hover {
+  background-color: brown;
+}
+section > .about-me {
+  text-align: center;
+  background-color: #607d8b;
+}
+section > .about-me > h1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-top: 64px;
+  font-size: 36px;
+}
+section > .about-me > img {
+  border-radius: 50%;
+  width: 50%;
+  margin-top: 16px;
+}
+section > .about-me > p {
+  color: white;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px ;
+}
+section .my-work > h1 {
+  display: flex;
+  color: black;
+  justify-content: center;
+  padding-top: 64px;
+  font-size: 36px;
+}
+section .my-work > p {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  font-size: 18px;
+}
+section .my-work > div {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+section .my-work > div > img {
+  max-width: 100%;
+}
 section > div {
   border: 1px solid black;
 }

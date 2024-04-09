@@ -13,6 +13,7 @@
     justify-content: center;
     max-width: 1300px;
     >.my-logo{
+
         background-color: black;
         >h1{
             display: flex;
@@ -21,6 +22,83 @@
             padding-top: 64px;
             font-size: 36px;
         }
+        >div{
+            align-items: center;
+            padding-top: 200px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        >div>a{
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-decoration:none;
+           
+        }
+        >div>.home:hover{
+            background-color: rgb(98, 144, 144);
+        }
+        >div>.myWork:hover{
+            background-color:teal;
+        }
+        >div>.resume:hover{
+            background-color: darkgray;
+        }
+        div>.contact:hover{
+            background-color: brown;
+        }
+    }
+    >.about-me{
+        text-align: center;
+        background-color: #607d8b;
+        >h1{
+            display: flex;
+            color: white;
+            justify-content: center;
+            padding-top: 64px;
+            font-size: 36px;
+        }
+        >img{
+            border-radius: 50%;
+            width: 50%;
+            margin-top: 16px;
+        }
+        >p{
+            color: white;
+            text-align: left;
+            padding-top:20px;
+            padding-left:20px ;
+           
+        }
+    }
+    .my-work{
+        
+        >h1{
+            display: flex;
+            color: black;
+            justify-content: center;
+            padding-top: 64px;
+            font-size: 36px;
+        }
+        >p{
+            display: flex;
+            justify-content: center;
+            padding-top:32px;
+            font-size: 18px;
+            
+        }
+
+        >div{
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            
+            
+        }
+        >div>img{
+            max-width: 100%;
+        }
     }
   }
   section > div {
@@ -28,6 +106,7 @@
     >h1 {
         font-family: "Segoe UI", Arial, sans-serif;
         font-weight: 400;
+        
     }
   }
   
