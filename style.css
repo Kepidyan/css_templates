@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  grid-auto-rows: 700px;
+  margin: auto;
+  justify-content: center;
+  max-width: 1300px;
+}
+section > .my-logo {
+  background-color: black;
+}
+section > .my-logo > h1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-top: 64px;
+  font-size: 36px;
+}
+section > div {
+  border: 1px solid black;
+}
+section > div > h1 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+}
